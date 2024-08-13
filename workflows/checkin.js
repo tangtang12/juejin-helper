@@ -245,6 +245,7 @@ class CheckIn {
 
     this.growthTask = new GrowthTask(juejin);
    // this.dipLuckyTask = new DipLuckyTask(juejin);
+    this.dipLuckyTask = {};
     this.lotteriesTask = new LotteriesTask(juejin);
     this.bugfixTask = new BugfixTask(juejin);
     this.sdkTask = new SdkTask(juejin);
